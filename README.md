@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apoorv Aditya Tripathi — Personal Portfolio
 
-## Getting Started
+A modern, highly performant, and minimalist personal portfolio website built to showcase my background in Computer Science, Machine Learning, Data Science, and Software Engineering. 
 
-First, run the development server:
+Live Demo: [https://github.com/apoorvTri/portfolio-new](https://github.com/apoorvTri/portfolio-new)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack & Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js (App Router, React, TypeScript)
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion (spring-physics transitions and staggered section entry reveals)
+- **Icons**: Lucide React + custom inline SVGs (for brand profiles)
+- **Email Routing**: FormSubmit AJAX Integration (direct client-to-inbox routing)
+- **Typography**: Next.js-optimized Google Fonts (`Archivo` for headings & `Space Grotesk` for body)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎨 Core Design Principles & Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Exaggerated Minimalism**: Generous whitespace, high-contrast monochrome tones (slate/zinc), clean outlines, and large typographic statements.
+- **Hydration-Safe Dark Mode**: A client-side theme switcher synced with local storage, combined with an inline head script to prevent light-theme load flashes (FOUC).
+- **Interactive Project Showcase**: Dynamic project grid animated with Framer Motion `layout` tags for smooth category filtering.
+- **Accessibility (A11y)**: Built with semantic HTML5 elements (`<header>`, `<main>`, `<section>`, `<footer>`), responsive fluid text parameters, proper contrast, and keyboard navigation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Project Showcase
 
-## Deploy on Vercel
+1. **Agriguard - Plant Disease Detection System**: An image classification convolutional neural network (CNN) identifying plant illnesses from leaf images, with Grad-CAM visual region explanation layers. Built with **Python, TensorFlow, Keras, OpenCV, and Streamlit**.
+2. **AI Speech-to-Text Transcriber**: A low-latency streaming transcription service piping live audio streams into a Faster-Whisper transformer backend. Built with **FastAPI, Faster-Whisper, Next.js, and WebSockets**.
+3. **Tweet Sentiment Analysis Engine**: An NLP classification pipeline evaluating user tweets into positive, negative, and neutral sentiment scores. Built with **Python, Scikit-learn, Pandas, and NLTK**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Skills & Capabilities
+
+- **Programming Languages**: Python, Java, C++, SQL, JavaScript
+- **Algorithms & Core**: Data Structures & Algorithms (DSA), Machine Learning (ML), Natural Language Processing (NLP), Deep Learning
+- **Libraries & Frameworks**: NumPy, Pandas, Scikit-learn, TensorFlow / Keras, OpenCV, FastAPI, Next.js, NLTK
+- **Tools & Technologies**: GitHub, Git, Streamlit, JDBC, HTML5 & CSS3
+
+---
+
+## 💻 Local Development
+
+Follow these steps to run the website locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/apoorvTri/portfolio-new.git
+   cd portfolio-new
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+4. Build the production application:
+   ```bash
+   npm run build
+   ```
