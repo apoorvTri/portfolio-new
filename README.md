@@ -2,7 +2,7 @@
 
 A modern, highly performant, and minimalist personal portfolio website built to showcase my background in Computer Science, Machine Learning, Data Science, and Software Engineering. 
 
-Live Demo: [https://github.com/apoorvTri/portfolio-new](https://github.com/apoorvTri/portfolio-new)
+Live Demo: [https://portfolio-new-ten-pi.vercel.app/](https://portfolio-new-ten-pi.vercel.app/)
 
 ---
 
