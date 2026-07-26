@@ -55,16 +55,7 @@ export default function Hero() {
         animate="visible"
         className="w-full space-y-8"
       >
-        {/* Status Badge */}
-        <motion.div variants={itemVariants} className="inline-flex items-center">
-          <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 text-xs font-body font-semibold text-zinc-800 dark:text-zinc-200">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-            </span>
-            Available for freelance & full-time work
-          </div>
-        </motion.div>
+
 
         {/* Big Statement Headline */}
         <motion.h1
