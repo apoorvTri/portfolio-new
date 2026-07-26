@@ -41,10 +41,14 @@ export default function Navbar() {
       const elementPosition = elementRect - bodyRect;
       const offsetPosition = elementPosition - offset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
-      });
+      // Delay the scroll to allow the mobile drawer closing animation to complete.
+      // This prevents the browser/layout transition from cancelling the smooth scroll.
+      setTimeout(() => {
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }, 200);
     }
   };
 
