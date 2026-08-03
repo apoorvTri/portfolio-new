@@ -70,7 +70,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg sm:text-xl font-body max-w-2xl text-zinc-600 dark:text-zinc-400 leading-relaxed"
         >
-          Hi, I&apos;m <span className="font-extrabold text-blue-600 dark:text-blue-500">Apoorv Aditya Tripathi</span>. A Computer Science student at VIT Bhopal specializing in Machine Learning, Deep Learning pipelines, and responsive full-stack applications.
+          Hi, I&apos;m <span className="font-extrabold text-blue-600 dark:text-blue-500">Apoorv Aditya Tripathi</span>. A Computer Science undergraduate specializing in real-time AI/ML pipelines and scalable full-stack web applications.
         </motion.p>
 
         {/* CTAs */}

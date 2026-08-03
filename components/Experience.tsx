@@ -22,7 +22,7 @@ const educationData = [
   {
     institution: "VIT Bhopal University",
     degree: "B.Tech in Computer Science",
-    grade: "CGPA - 8.97",
+    grade: "CGPA - 8.99",
     duration: "Aug 2023 – Present",
     location: "Sehore, Madhya Pradesh",
   },
@@ -43,10 +43,21 @@ const educationData = [
 ];
 
 const achievementsData = [
-  "GATE 2026 CS Qualified (GATE Score: 468)",
-  "NPTEL Introduction to Machine Learning Certification",
-  "Google Bits and Bytes of Computer Networks Certification",
-  "Ethnus MERN Full Stack Certification",
+  {
+    text: "GATE 2026 CS Qualified (GATE Score: 468)",
+    link: "https://drive.google.com/file/d/1poC3myhjSONOgIwCCU8DFPO0JmNoxpmN/view?usp=sharing",
+  },
+  {
+    text: "NPTEL Introduction to Machine Learning Certification",
+    link: "https://drive.google.com/file/d/1b9BumiLfp_6sr9eTxiK4zjhR7I0_B1E1/view?usp=drive_link",
+  },
+  {
+    text: "Google Bits and Bytes of Computer Networks Certification",
+    link: "https://coursera.org/share/f46c2e488a7a4e99d1a306a2b7f544cf",
+  },
+  {
+    text: "Ethnus MERN Full Stack Certification",
+  },
 ];
 
 export default function Experience() {
@@ -168,9 +179,20 @@ export default function Experience() {
                   className="flex items-start gap-3 p-4 rounded-xl border border-zinc-200/50 dark:border-zinc-800/50 bg-white dark:bg-zinc-950/40 shadow-sm"
                 >
                   <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-500 mt-2" />
-                  <p className="text-sm font-body font-semibold text-zinc-700 dark:text-zinc-300">
-                    {ach}
-                  </p>
+                  {ach.link ? (
+                    <a
+                      href={ach.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-body font-semibold text-zinc-700 dark:text-zinc-300 hover:text-blue-600 dark:hover:text-blue-500 transition-colors"
+                    >
+                      {ach.text}
+                    </a>
+                  ) : (
+                    <p className="text-sm font-body font-semibold text-zinc-700 dark:text-zinc-300">
+                      {ach.text}
+                    </p>
+                  )}
                 </motion.div>
               ))}
             </div>

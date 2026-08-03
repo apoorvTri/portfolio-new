@@ -77,7 +77,7 @@ export default function About() {
             className="space-y-6 text-base sm:text-lg font-body text-zinc-600 dark:text-zinc-400 leading-relaxed"
           >
             <p>
-              I am a Computer Science student at VIT Bhopal University with a strong interest in Machine Learning, Data Science, and algorithmic problem-solving. My experience lies in designing, training, and deploying end-to-end Machine Learning systems, ranging from computer vision plant diagnostics to NLP tweet analysis.
+              I am a Computer Science undergraduate with hands-on expertise in building scalable Full-Stack web applications and real-time AI/ML pipelines. I have proven experience building low-latency speech-to-text engines, geospatial services, and microservice architectures, and I am GATE 2026 CS qualified with a strong foundation in Data Structures, System Design, and Machine Learning.
             </p>
             <p>
               My goal is to bridge the gap between machine intelligence and software interfaces. I am passionate about constructing performant, scalable, and responsive web products that expose neural pipelines to users through clean, accessible, and interactive designs.

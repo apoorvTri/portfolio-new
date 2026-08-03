@@ -5,20 +5,20 @@ import { SkillCategory } from "../types";
 
 const skillsData: SkillCategory[] = [
   {
-    name: "Programming Languages",
-    skills: ["Python", "Java", "C++", "SQL", "JavaScript"],
+    name: "Languages",
+    skills: ["Python", "JavaScript (ES6+)", "C++", "Java", "SQL", "HTML5/CSS3"],
   },
   {
-    name: "Algorithms & Core",
-    skills: ["Data Structures & Algorithms (DSA)", "Machine Learning (ML)", "Natural Language Processing (NLP)", "Deep Learning"],
+    name: "AI/ML & NLP",
+    skills: ["Faster-Whisper", "PyTorch", "TensorFlow/Keras", "OpenCV", "Scikit-learn", "NumPy", "Pandas", "NLTK"],
   },
   {
-    name: "Libraries & Frameworks",
-    skills: ["NumPy", "Pandas", "Scikit-learn", "TensorFlow / Keras", "OpenCV", "FastAPI", "Next.js", "NLTK"],
+    name: "Full Stack & Backend",
+    skills: ["React.js", "FastAPI", "Next.js", "WebSockets", "Streamlit", "RESTful APIs", "JDBC"],
   },
   {
-    name: "Tools & Technologies",
-    skills: ["GitHub", "Git", "Streamlit", "JDBC", "HTML5 & CSS3"],
+    name: "Developer Tools & Infrastructure",
+    skills: ["Git", "GitHub", "FFmpeg", "Vite", "Tailwind CSS"],
   },
 ];
 
